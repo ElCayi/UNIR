@@ -1,0 +1,185 @@
+/* Estilos para el título */
+@font-face {
+    font-family: 'Street';
+    src: url('Font/Street.ttf') format('truetype');
+}
+
+html {
+    background-image: url('img/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Street', sans-serif;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    background-image: url('img/fondocabecera.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+}
+
+th {
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    opacity: 0.5;
+    padding: 20px;
+    font-family: 'Street', sans-serif;
+    background: url('img/fondocabecera.jpg') center/cover;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Estilos para las celdas */
+td {
+    width: 120px;
+    height: 140px;
+    font-family: 'Street', sans-serif;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: black;
+    position: relative;
+}
+
+/* Contenedor de imagen y nombre */
+.personaje-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Nombres encima de la imagen */
+.personaje-container span {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: darkorange;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: 'Street', sans-serif;
+    text-align: center;
+}
+
+/* Imágenes dentro de la tabla */
+.personaje-container img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Street';
+    src: url('img/streetfighter.ttf'); 
+}
+
+body {
+    background-image: url('img/background.jpg'); 
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Street', sans-serif;
+    font-size: 28px;
+    color: crimson;
+    text-align: center;
+}
+
+.formulario {
+    width: 600px;
+    height: 1100px;
+    background-color: black;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-family: 'Street', sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+textarea {
+    width: 560px;
+    height: 100px;
+}
+
+.boton {
+    width: 200px;
+    height: 50px;
+    font-family: 'Street', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: darkred;
+}
